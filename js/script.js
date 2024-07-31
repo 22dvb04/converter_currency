@@ -6,10 +6,10 @@ const selectQuote = document.getElementById("currency2")
 
 const buttonConvert = document.getElementById("convert")
 
-async function getPriceCurr(base, quote, amount = 1) {
+async function getPriceCurr(base, quote) {
     // https://v6.exchangerate-api.com/v6/YOUR-API-KEY/pair/EUR/GBP/AMOUNT
     const api_key = "7643a9379eac5ef74dfef2d6";
-    const api_url = `https://v6.exchangerate-api.com/v6/${api_key}/pair/${base}/${quote}/${amount}`
+    const api_url = `https://v6.exchangerate-api.com/v6/${api_key}/pair/${base}/${quote}`
     const res = await fetch(api_url);
     const data = await res.json();
     const price = data.conversion_rate
