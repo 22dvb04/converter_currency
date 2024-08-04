@@ -4,21 +4,19 @@ body {
     align-items: center;
     height: 100vh;
     font-family: Arial;
+    background-color: #121212; 
+    color: #FFFFFF; 
 }
 
-.main_box{
+.main_box {
     text-align: center;
-    border: 1px solid #020000;
+    border: 1px solid #444; 
     padding: 20px;
     border-radius: 10px;
+    background-color: #1E1E1E; 
 }
 
-.first_block {
-    display: flex;
-    margin: 10px 0;
-}
-
-.second_block {
+.first_block, .second_block {
     display: flex;
     margin: 10px 0;
 }
@@ -27,27 +25,31 @@ body {
     flex: 1;
     padding: 10px;
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #555; 
     border-radius: 5px;
+    background-color: #333; 
+    color: #FFF; 
 }
 
 .second_block input, .second_block select {
     flex: 1;
     padding: 10px;
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #555; 
     border-radius: 5px;
+    background-color: #333; 
+    color: #FFF; 
 }
 
 button {
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
-    background-color: #C2C2C2;
-    color: black;
+    background-color: #003366; 
+    color: white; 
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #7A7A7A;
+    background-color: #002244; 
 }
